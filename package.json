@@ -1,0 +1,25 @@
+{
+  "name": "openstax-tutor-math-processing",
+  "version": "0.0.0",
+  "description": "Client for OpenStax Tutor",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test && gulp prod",
+    "foo": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openstax/tutor-js.git"
+  },
+  "author": "Tutor Team",
+  "license": "AGPL3",
+  "bugs": {
+    "url": "https://github.com/openstax/tutor-js/issues"
+  },
+  "homepage": "https://github.com/openstax/tutor-js",
+  "dependencies": {
+    "MathJax-node": "~0.3.0",
+    "coffee-script": "~1.9.1",
+    "jsdom": "~3.1"
+  }
+}
